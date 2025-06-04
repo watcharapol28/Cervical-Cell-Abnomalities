@@ -12,20 +12,22 @@ A deep learning model based on Detectron2 is used to automatically segment the n
 2. Classification Stage,
 The extracted N/C ratio, along with additional features (e.g., area, shape), is fed into a machine learning classifier to categorize cells into either Normal cells, Abnormal cells (suspected of pre-cancerous or cancerous transformation)
 
-• Dataset Source: Pap smear slide images were obtained from the National Cancer Institute of Thailand.
+- Dataset Source: Pap smear slide images were obtained from the National Cancer Institute of Thailand.
 
-• Annotation Tool: Image annotations (nucleus and cytoplasm regions) were created using makesense.ai.
+- Annotation Tool: Image annotations (nucleus and cytoplasm regions) were created using makesense.ai.
 
-• Segmentation Model: Used Detectron2 to train an instance segmentation model for detecting and segmenting nuclei and cytoplasm.
+- Segmentation Model: Used Detectron2 to train an instance segmentation model for detecting and segmenting nuclei and cytoplasm.
 
-• Classification Models: Employed three pre-trained CNN architectures for classifying cells into normal and abnormal categories.
+- Classification Models: Employed three pre-trained CNN architectures for classifying cells into normal and abnormal categories.
 
-• Matching Algorithm: Applied the Hopcroft–Karp algorithm to accurately match each nucleus with its corresponding cytoplasm region (based on bipartite graph matching).
+- Matching Algorithm: Applied the Hopcroft–Karp algorithm to accurately match each nucleus with its corresponding cytoplasm region (based on bipartite graph matching).
 
-• N/C Ratio Calculation: Computed the Nucleus-to-Cytoplasm Ratio (N/C Ratio) using the formula
+- N/C Ratio Calculation: Computed the Nucleus-to-Cytoplasm Ratio (N/C Ratio) using the formula
 ``` math
 N\!/\!C~\text{ratio} = \frac{N_a}{C_a}
 ```
+
+## Overview Application
 
 - Preview of Nucleus and Cytoplasm Region Detection Using an Instance Segmentation Model
 <img src = "temp/Start application.gif" />
