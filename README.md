@@ -30,13 +30,13 @@ N\!/\!C~\text{ratio} = \frac{N_a}{C_a}
 ## Application Overview 
 
 - Preview of Nucleus and Cytoplasm Region Detection Using an Instance Segmentation Model
-<img src = "temp/Start application.gif" width="300" height="300" />
+<img src = "temp/Start application.gif" width="400" height="300" />
 
 - Preview of the N/C ratio calculation based on nucleus and cytoplasm areas, with the risk level represented using color shading.
-<img src = "temp/Risk abnormalities.gif" width="300" height="300" />
+<img src = "temp/Risk abnormalities.gif" width="400" height="300" />
 
 - Preview of the area detection accuracy in comparison with ground truth annotations.
-<img src = "temp/Prepare.gif" width="300" height="300" />
+<img src = "temp/Prepare.gif" width="400" height="300" />
 
 ## Install Application
 ``` bash
