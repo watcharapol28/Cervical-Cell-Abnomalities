@@ -27,8 +27,14 @@ The extracted N/C ratio, along with additional features (e.g., area, shape), is 
 N\!/\!C~\text{ratio} = \frac{N_a}{C_a}
 ```
 
+- Preview of Nucleus and Cytoplasm Region Detection Using an Instance Segmentation Model
+<img src = "temp/Start application.gif" />
 
+- Preview of the N/C ratio calculation based on nucleus and cytoplasm areas, with the risk level represented using color shading.
+<img src = "temp/Risk abnormalities.gif" />
 
+- Preview of the area detection accuracy in comparison with ground truth annotations.
+<img src = "temp/Prepare.gif" />
 
 ## Install Application
 ``` bash
@@ -45,6 +51,7 @@ curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Minif
 ```
 2. Activate Conda
 ``` bash
+conda create -n miniforce3 python=3.9.6 
 conda activate cervical-env
 ```
 
