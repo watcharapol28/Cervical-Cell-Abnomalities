@@ -24,7 +24,7 @@ The extracted N/C ratio, along with additional features (e.g., area, shape), is 
 
 • N/C Ratio Calculation: Computed the Nucleus-to-Cytoplasm Ratio (N/C Ratio) using the formula
 ``` math
-N/C  ratio = \frac{N_a}{C_a}
+N/C\0ratio = \frac{N_a}{C_a}
 ```
 
 
@@ -32,7 +32,7 @@ N/C  ratio = \frac{N_a}{C_a}
 
 ## Install Application
 ``` bash
-git clone 
+git clone https://github.com/watcharapol28/Cervical-Cell-Abnomalities.git
 ```
 
 ### Mac OS
