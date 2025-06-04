@@ -24,7 +24,7 @@ The extracted N/C ratio, along with additional features (e.g., area, shape), is 
 
 • N/C Ratio Calculation: Computed the Nucleus-to-Cytoplasm Ratio (N/C Ratio) using the formula
 ``` math
-N/C\0ratio = \frac{N_a}{C_a}
+N\!/\!C~\text{ratio} = \frac{N_a}{C_a}
 ```
 
 
