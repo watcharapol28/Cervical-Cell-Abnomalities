@@ -27,16 +27,16 @@ The extracted N/C ratio, along with additional features (e.g., area, shape), is 
 N\!/\!C~\text{ratio} = \frac{N_a}{C_a}
 ```
 
-## Overview Application
+## Application Overview 
 
 - Preview of Nucleus and Cytoplasm Region Detection Using an Instance Segmentation Model
-<img src = "temp/Start application.gif" />
+<img src = "temp/Start application.gif" width="300" height="300" />
 
 - Preview of the N/C ratio calculation based on nucleus and cytoplasm areas, with the risk level represented using color shading.
-<img src = "temp/Risk abnormalities.gif" />
+<img src = "temp/Risk abnormalities.gif" width="300" height="300" />
 
 - Preview of the area detection accuracy in comparison with ground truth annotations.
-<img src = "temp/Prepare.gif" />
+<img src = "temp/Prepare.gif" width="300" height="300" />
 
 ## Install Application
 ``` bash
@@ -108,6 +108,6 @@ streamlit run streamlit_app.py
 ```
 
 ## Additional
-Currently, there are three main models, each trained on datasets of low, high, and mixed complexity. These models are stored in the Models directory.
+Currently, there are three main instance segmentation models, each trained on datasets of low, high, and mixed complexity. These models are stored in the Models directory.
 
 If model customization is needed, the instance segmentation model (Detectron2) can be modified in the [Section1_Model.ipynb]() notebook, which contains organized code sections with additional explanations. For the classification model (3 Pretrained CNNs Models), modifications can be made in the [Section2_Model.ipynb]() notebook.
