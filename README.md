@@ -46,9 +46,10 @@ N\!/\!C~\text{ratio} = \frac{N_a}{C_a}
 
 
 ## Install Application
-``` bash
+Download from [drive](https://drive.google.com/drive/folders/12xPdKkkqus6eT0RBlF-EPRyFxwvT3e5f?usp=sharing)
+<!--``` bash
 git clone https://github.com/watcharapol28/Cervical-Cell-Abnomalities.git
-```
+```-->
 
 ### Mac OS
 1. Install Miniforge3 (Conda)
